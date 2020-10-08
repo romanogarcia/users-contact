@@ -1,10 +1,45 @@
-## Laravel 6.2 Ajax CRUD with DataTables
-Tutorial Link: [Laravel 6.2 Ajax CRUD with DataTables Tutorial For Beginners](https://www.mynotepaper.com/laravel-62-ajax-crud-with-datatables-tutorial-for-beginners.html)
+Steps:
 
-## Output
-![laravel-6-2-ajax-crud-with-datatables-tutorial-for-beginners-preview](https://user-images.githubusercontent.com/13184472/68018309-038e7200-fcc3-11e9-92bc-2400738d5159.gif)
+Clone the repository
+- git clone https://github.com/romanogarcia/users-contact.git
 
-## LICENCE
-You can download the project, modify the code and use it anywhere you want without re-posting to your blog. Happy Coding :)
+Create the env file and add your user and db password
+- cp .env.example .env
 
-Thank you.
+Update/install the vendor folder
+- composer update
+
+Generate new key
+- php artisan key:generate
+
+Run migration 
+- php artisan migrate
+
+Run server
+- php artisan serve
+
+Visit the site
+- http://127.0.0.1:8000/contacts
+
+
+*** Using zip file ***
+
+Download the zip file and extract on your webroot
+
+Create the env file and add your user and db password
+- cp .env.example .env
+
+Update/install the vendor folder
+- composer update
+
+Generate new key
+- php artisan key:generate
+
+Run migration 
+- php artisan migrate
+
+Run server
+- php artisan serve
+
+Visit the site
+- http://127.0.0.1:8000/contacts
